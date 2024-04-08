@@ -1,0 +1,114 @@
+.red-bus-image {
+  height: 50px;
+  width: 75px;
+  margin-right: 25px;
+}
+
+body {
+  margin: 50px;
+  background-color: #F8EDFF;
+  margin-bottom: 400px;
+}
+
+h1 {
+  font-size: 64px;
+  text-align: center;
+  margin-top: 0;
+  color: #5F5D9C;
+}
+
+#red {
+  color: crimson;
+}
+
+h2 {
+  color: #6196A6;
+  font-size: 48px;
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Caveat';
+  margin-bottom: 0;
+}
+
+.hp {
+  color: midnightblue;
+  font-style: italic;
+  font-size: 150px;
+  text-align: center;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px;
+  gap: 100px;
+  margin-top: 0;
+}
+
+.image {
+  width: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+p {
+  font-size: 22px;
+  font-family: 'Montserrat';
+}
+
+h3 {
+  font-size: 36px;
+  color: #0766AD;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 680px) {
+
+  body {
+    background-color: rgb(185, 224, 255);
+    margin: 25px;
+    margin-bottom: 50px;
+  }
+
+  .red-bus-image {
+    width: 100px;
+    height: 50px;
+    margin: 0 40% 25px 40%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 80px;
+    margin: 0 0 25px 0;
+  }
+
+  .hp {
+    font-size: 64px;
+    margin: 0;
+    text-align: center;
+    font-style: unset;
+    font-family: 'Caveat Brush';
+  }
+
+  .image {
+    width: 50%;
+    margin-right: 20px;
+  }
+
+  .main {
+    display: block;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
